@@ -59,23 +59,33 @@
 
 }
 
-.Above_Fair_Value {
+tr.Above_Fair_Value td,
+tr.Above_Fair_Value th {
   background-color: rgba(255, 0, 0, 0.2);
 }
 
-.At_Fair_Value {
+tr.At_Fair_Value td,
+tr.At_Fair_Value th {
   background-color: whitesmoke;
 }
 
-.In_the_Margin_of_Safety {
+tr.In_the_Margin_of_Safety td,
+tr.In_the_Margin_of_Safety th {
   background-color: rgba(0, 128, 0, 0.2);
 }
 
-.Optimal {
+tr.Optimal td,
+tr.Optimal th {
   animation: blink 3s infinite;
 }
 
 @keyframes blink {
+  0% {
+    background-color: rgb(91, 225, 255);
+  }
+  50% {
+    background-color: rgb(225, 141, 255);
+  }
   100% {
     background-color: rgb(91, 225, 255);
   }

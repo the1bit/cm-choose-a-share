@@ -1,28 +1,60 @@
 # Choose-a-Share app
 
-To chose the best divider shares.
+Choose the best dividend shares using the Dividend Radar spreadsheet.
 
-Deployed url: https://choose-a-share.cloudsteak.com
+**Deployed url:** https://shares.cloud-mentor.hu
 
+## About
 
-The app is capable to parse then filter the weekly updated Dividend Radar excel spreadsheet (https://www.portfolio-insight.com/dividend-radar).
+This app parses and filters the weekly updated Dividend Radar Excel spreadsheet from [Portfolio Insight](https://www.portfolio-insight.com/dividend-radar).
 
+## 🚀 Tech Stack
 
-For further question, please ping me: https://cloudsteak.com
+- **React 18.3** - Modern React with hooks
+- **Vite 6** - Next generation frontend tooling
+- **Bootstrap 5.3** - Responsive UI components
+- **XLSX** - Excel file processing
+- **Font Awesome** - Icons
 
-```
-NODE_OPTIONS : --max_old_space_size=460
-```
-
-![memusage settings](./images/memusage.png)
-
-
-## Update
+## 📦 Installation
 
 ```bash
-git add .
-
-git commit -am "Version: 20220718"
-
-git push heroku main 
+npm install
 ```
+
+## 🛠️ Development
+
+```bash
+npm run dev
+```
+
+Runs the app in development mode at [http://localhost:3000](http://localhost:3000)
+
+## 🏗️ Build
+
+```bash
+npm run build
+```
+
+Builds the app for production to the `build` folder.
+
+## 🧪 Test
+
+```bash
+npm test
+```
+
+## 📝 Migration Notes
+
+**Version 0.2.0** - Migrated from Create React App to Vite:
+- Upgraded from React Scripts 5.0.1 to Vite 6.0.5
+- Modernized all dependencies to latest versions
+- Removed direct DOM manipulation in favor of React state
+- Converted to ES modules
+- Improved build performance
+- Updated Node.js requirement to >= 18.0.0
+
+## 📧 Contact
+
+For questions, please visit: https://cloudmentor.hu
+
